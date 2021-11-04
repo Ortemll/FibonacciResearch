@@ -1,11 +1,4 @@
-import numpy
-
-# получение n-ного члена последовательности Фибоначчи
-ar1 = numpy.array([1, 1])
-ar2 = numpy.array([0, 1, 1, 1])
-ar2.resize((2, 2))
-print(ar2)
-print(numpy.dot(ar1, numpy.linalg.matrix_power(ar2, 10)))
+print('1100921 1 11'.find('11'))
 
 # num = abs(float(input()))
 # start_point_numer, start_point_denom = 1, 1
